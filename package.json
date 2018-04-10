@@ -1,0 +1,24 @@
+{
+  "name": "longboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  	"start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Panathes/SI5.git"
+  },
+  "author": "clara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Panathes/SI5/issues"
+  },
+  "homepage": "https://github.com/Panathes/SI5#readme",
+  "devDependencies": {
+    "node-sass": "^4.8.3",
+    "parcel-bundler": "^1.7.0"
+  }
+}
