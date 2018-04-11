@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="styles/main.scss">
 </head>
 <body>
 
-<script src="./js/app.js"></script>
+
+    <div class="header">
+        <ul class="header-nav">
+            <li class="header-navItem">Personnalisation</li>
+            <li class="header-navItem">Planches</li>
+            <li class="header-navItem">Jury</li>
+        </ul>
+        <div class="header-circle">
+            <img src="assets/imgs/logoKnK.svg" alt="" class="header-logo">
+        </div>
+        <ul class="header-nav">
+            <li class="header-navItem">Infos</li>
+            <li class="header-navItem">Camp</li>
+            <li class="header-navItem">No Paws Down</li>
+        </ul>
+    </div>
+    <div class="homeContainer">
+        <div class="leftContainer">
+            <div class="date">
+                <p class="date grey">LUN</p>
+                <p class="date red">23</p>
+                <p class="date grey">JUILLET</p>
+            </div>
+            <div class="line"></div>
+            <div class="date">
+                <p class="date grey">SAM</p>
+                <p class="date red">28</p>
+                <p class="date grey">JUILLET</p>
+            </div>
+        </div>
+
+            <div id="homeVideo" class="homeVideo" ></div>
+
+        <div class="rightContainer">
+            <img src="./assets/imgs/facebook-logo.svg" alt="" class="mediaLogo">
+            <img src="./assets/imgs/noun_1150990_cc.svg" alt="" class="mediaLogo">
+            <img src="./assets/imgs/twitter-logo-silhouette.svg" alt="" class="mediaLogo">
+            <img src="./assets/imgs/snapchat.svg" alt="" class="mediaLogo">
+        </div>
+    </div>
+
+<script>
+    var tag = document.createElement('script');
+
+    tag.src = "https://www.youtube.com/iframe_api";
+
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+</script>
+
+<script src="js/app.js"></script>
+
 </body>
 </html>
