@@ -2,9 +2,16 @@
 @import "./mixins/forSize";
 
 @import "components/header";
+@import "components/section1";
+
+
+html{
+  font-size: 62.5%;
+}
 
 body{
   font-size:14px;
   font-family: "Avenir",sans-serif;
   color: #4A4A4A;
 }
+
