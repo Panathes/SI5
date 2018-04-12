@@ -1,0 +1,33 @@
+.counter {
+  display: flex;
+  height: 23.8rem;
+  flex-direction: column;
+
+  &-text {
+    display: flex;
+    justify-content: center;
+  }
+  &-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &-item {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  &-number {
+    margin-bottom: 15px;
+    font-size: 50px;
+  }
+  &-line {
+    background: grey;
+    width: 1px;
+    height: 60px;
+  }
+}
