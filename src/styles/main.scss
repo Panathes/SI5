@@ -1,10 +1,16 @@
 @import './globals/reset';
 @import './mixins/forSize';
 
-@import 'components/header';
-@import 'components/section1';
-@import 'components/competition';
+
+
+
+@import "components/header";
+@import "components/partnership";
+@import "components/contest";
+@import "components/vote";
 @import 'components/counter';
+
+
 
 html {
   font-size: 62.5%;

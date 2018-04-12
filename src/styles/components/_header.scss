@@ -3,7 +3,12 @@
   justify-content: center;
   height: 70px;
   position: relative;
+<<<<<<< HEAD:src/styles/components/header.scss
   &-circle {
+=======
+
+  &-circle{
+>>>>>>> 6a503f2add231bb31de9831f44e454c6e46f2a67:src/styles/components/_header.scss
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +17,12 @@
     border-radius: 100px;
     background: #fff;
   }
+<<<<<<< HEAD:src/styles/components/header.scss
   &-nav {
+=======
+  &-nav{
+    position: sticky;
+>>>>>>> 6a503f2add231bb31de9831f44e454c6e46f2a67:src/styles/components/_header.scss
     display: flex;
     justify-content: space-around;
     margin-top: 25px;

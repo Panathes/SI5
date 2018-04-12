@@ -1,19 +1,36 @@
-.competition{
+.vote{
+  position:relative;
   display:flex;
   justify-content: space-between;
-  align-items: center;
   width: 84%;
-  margin: 10% auto;
+  margin: 20%  0 0 10%  ;
+
+
+  &-imgsContainer{
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 48%;
+    height: 372px;
+    top:23%;
+    left:49%;
+  }
+  &-imgContainer{
+    width: 48%;
+    height: 167px;
+    box-shadow: 0 2px 1px 0 rgba(0,0,0,0.50);
+  }
+
   &-textBlock{
+    z-index: -1;
     position: relative;
     display: flex;
-    flex-direction:column;
-    justify-content: center;
-    width: 39%;
-    height: 316px;
+    width: 76%;
+    height: 200px;
     background: rgba(216,216,216,0.26);
     line-height: 2.7rem;
-    padding: 0 4%;
+    padding: 6%;
   }
   &-title{
     position: absolute;
@@ -22,14 +39,17 @@
     font-size:3.6rem;
     font-weight: 900;
   }
+  &-description{
+    width: 40%;
+  }
   &-button{
     position: absolute;
     bottom: -9%;
-    right: 0;
+    left:5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 27%;
     height: 16%;
     background: #d30c43;
     border-radius: 5rem;
@@ -39,9 +59,4 @@
     letter-spacing: 0.2rem;
     cursor: pointer;
   }
-  &-description{
-    padding-top:4%;
-  }
 }
-
-
