@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Configurateur</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <ul class="header-nav">
+            <li class="header-navItem">Personnalisation</li>
+            <li class="header-navItem">Planches</li>
+            <li class="header-navItem">Jury</li>
+        </ul>
+        <div class="header-circle">
+            <img src="img/logoKnK.svg" alt="" class="header-logo">
+        </div>
+        <ul class="header-nav">
+            <li class="header-navItem">Infos</li>
+            <li class="header-navItem">Camp</li>
+            <li class="header-navItem">No Paws Down</li>
+        </ul>
+        <div id="gameContainer" style="width: 1366px; height: 768px"></div>
+    </div>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/ExportWeb5G10.json");
+    </script>
+</body>
+</html>
